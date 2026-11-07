@@ -15,7 +15,7 @@ class AboutActivity : BaseActivity() {
 
         btnGithub.setOnClickListener {
             val githubUrl =
-                "https://github.com/YOUR_USERNAME/BaggageFee"
+                "https://github.com/MehmedDanishIrfanSazli/BaggageFee"
 
             val intent = Intent(
                 Intent.ACTION_VIEW,

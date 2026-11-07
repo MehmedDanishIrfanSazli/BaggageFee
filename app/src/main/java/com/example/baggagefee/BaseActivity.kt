@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat
 open class BaseActivity : AppCompatActivity() {
 
     private val githubUrl =
-        "https://github.com/YOUR_USERNAME/BaggageFee"
+        "https://github.com/MehmedDanishIrfanSazli/BaggageFee"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
