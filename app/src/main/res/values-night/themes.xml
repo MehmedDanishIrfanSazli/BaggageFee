@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.BaggageFee"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/navy</item>
+        <item name="colorPrimaryDark">@color/navy</item>
+        <item name="colorAccent">@color/blue</item>
+
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="actionBarTheme">@style/BaggageFeeActionBar</item>
+    </style>
+
+    <style name="BaggageFeeActionBar"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="Theme.BaggageFee"
+        parent="Base.Theme.BaggageFee" />
+
+</resources>
